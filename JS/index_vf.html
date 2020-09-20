@@ -1,0 +1,132 @@
+<html> 
+  <head>
+		<meta charset="UTF-8">
+        <!--Título da página-->
+        <title>101 viagens </title> 
+        <!--imagem da aba-->
+        <link rel="shortcut icon" type='image/x-icon' href='img/logo2.png'>
+        <!--link do css-->
+        <link type='text/css' rel='stylesheet' href='estilo_vf.css'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+ 
+  <body>
+    <!--barra de navegação-->
+      <nav class="navbar" id="navbar">
+        <div class="smallNav">
+          <a href="#"><img src="img/logobranco.png" style="height:60px; width: 120x;"></a>
+          <a href="#" class="icon"><i id="menuNav" class="fa fa-bars"></i></a>
+        </div>
+        <a href="#">Quem somos</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#footer">Contato</a>
+        <a href="#cadastro">Cadastre-se</a>
+        <button class="button button1">Faça sua reserva</button>
+        
+      </nav>
+    <!--fim da barra de navegação-->
+
+    <div class="header">
+        <h1>Planeje sua<p></p>
+        próxima aventura...</h1>
+        <button class="button button1">Faça sua reserva</button>
+    </div>
+
+    <!--área de destinos-->
+    <div class="destinos" id="destinos">
+      <h1 class="titulo">Confira nossos principais destinos</h1>
+      <div class="destination">
+          <div class="descricao">
+              <h1>Deserto do Atacama - Chile</h1>
+              <p>Destino da América do Sul com muitas belezas naturais, o Deserto do Atacama é considerado o mais seco do mundo, com uma área de mais de 100.000 km². Localizado entre a
+              região norte do Chile e a fronteira com o Peru, por lá você vai se impressionar com os vulcões, lagos e gêiseres. É um lugar para se guardar na memória, com certeza! </p><hr>
+              <div id="more" style="display: none;">
+                  <p>Preço médio:R$700,00</p>
+                  <p>Ideal para ir com: a galera</p>
+                  <p>Outros atrativos da cidade: comidas típicas</p>
+              </div>
+              </p>
+              <button id="myBtn" class="button">Saiba mais</button>
+          </div>
+          <img class="destinoPic" src='img/desertodoatacama_chile.JPG'>
+      </div>
+      <button class="button button2">Veja outros destinos</button>
+    </div>
+    <!--fim da area de destinos-->
+
+    <!--Área de comentários-->
+    <div class="depoimentos">
+      <h1 class="titulo">O que dizem os viajantes...</h1>
+      <div class="usuario">
+        <img class="foto" src="img/annonymous.png">
+        <div class="box">
+          <p>Ótima empresa</p>
+          <div class="nome">Anônimo em 26 de setembro de 2019</div>
+        </div>
+      </div>
+      <div class="usuario">
+        <img class="foto" src="img/user.JPG">
+        <div class="box">
+          <p>O deserto do Atacama é lindo, repleto de belezas naturais!! Vale cada passeio!</p>
+          <div class="nome">João Silva em 2 de fevereiro de 2020</div>
+        </div>
+      </div>
+      <div class="usuario">
+        <img class="foto" src="img/annonymous.png">
+        <div class="comentario">
+          <textarea id="caixa_comentario" placeholder="Deixe uma mensagem curta"></textarea>
+          <button id="botao_comentario">Enviar</button>
+        </div>
+      </div>
+    </div>
+    <!--Fim da área de comentários-->
+
+    <!--início do forms de cadastro-->
+    <div id="cadastro" class="cadastro">
+      <form class="forms">
+        <h1>Cadastre-se e faça sua reserva!</h1>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Crie uma senha">
+        <input type="password" placeholder="Confirme a senha">
+        <button class="button">Enviar</button>
+      </form>
+    </div>
+    <!-- Fim do forms -->
+
+    <!--rodapé-->
+    <div id="footer" class="footer">
+      <div class="rodape">
+        <div class="coluna">
+          <img src="img/logo1.png" style="width: 250px; height: 100px;">
+          <p>A 101 é uma empresa criada pensando em facilitar a vida de todos que sonham em viajar pelo mundo.
+            Oferecemos todas as informações necessárias, buscamos os melhores destinos pelos menores preços.
+          </p>
+        </div>
+        <div class="coluna">
+          <h4>Informações</h4>
+          <p>Av. Professor Mello Moraes, 2231
+            Ed da Eng. Mecânica da USP
+            Butantã - Cidade Universitária
+            São Paulo / SP</p>
+          <p>Seg - Sex 08.00h - 20.00h </p>
+          <p><a href="tel://(11) 30915477">(11) 3091-5477</a></p>
+          <p><a href="mailto:contato@101viagens.com.br">contato@101viagens.com.br</a></p>
+        </div>
+        <div class="coluna">
+          <h4>Nossos destinos</h4>
+          <p>Deserto do Atacama - Chile</p>
+          <p>Big Ben - Londres, Inglaterra</p>
+          <p>Torre Eiffel - Paris, França</p>
+          <p>Cristo Redentor - Rio de Janeiro, Brasil</p>
+          <p>Safari na África do Sul</p>
+        </div>
+      </div><hr>
+      <p style="text-align: center;">All content in this site &copy; 2020 PoliJúnior | All rights reserved.</p>
+    </div>
+    <!-- fim do rodapé -->
+    <script src="comentario.js"></script>
+  </body>
+</html>

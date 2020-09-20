@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(0,0,0, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+button{
+	padding: 12px 20px;
+    color: white;
+	text-align: center;
+	font-size: 14px;
+    background-color:rgb(253, 169,103);
+    border: 1px solid rgb(253, 169,103);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 10px 10px;
+}
+
+button:hover{
+    background-color: rgb(247, 133, 46);
+    border-color:  rgb(247, 133, 46);
+    color: white;
+}
+
+
+@media screen and (max-width:800px){
+    .navbar{
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
